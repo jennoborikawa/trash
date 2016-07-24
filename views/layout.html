@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.css'/>
+	</head>
+
+	<body>
+		<ul class='nav nav-tabs'>
+			<li><a href='/'>Home</a></li>
+			<li><a href='/trash'>Trash</a></li>
+		</ul>
+		<div style='margin-top:10px' class='container'>
+			{% block main %}
+			{% endblock %} 
+		</div>
+	</body>
+</html>
